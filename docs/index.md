@@ -35,6 +35,7 @@
 | [Game Mechanics](mechanics.md) | Player flow and real-time elements |
 | [Technology](technology.md) | System architecture and security |
 | [Business Model](sponsorship.md) | Partnerships and monetization |
+| [Strategic Partnerships](partnerships.md) | Technology partner value proposition |
 | [Production](production.md) | Phased rollout and timeline |
 | [IP & Licensing](licensing.md) | Intellectual property protection |
 

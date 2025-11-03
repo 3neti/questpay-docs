@@ -159,6 +159,10 @@ TV networks, streaming platforms, and production companies to bring QuestPay™ 
 ### 2. Technology Partners
 Digital wallets, banks, and payment processors to power the redemption infrastructure.
 
+**New Value Proposition**: Transform from payment processors to **value orchestrators** in the redemption economy. Partners earn from voucher generation, redemption velocity, and brand activations — not just float and fees.
+
+[Learn more about Strategic Partnerships →](partnerships.md)
+
 ### 3. Brand Sponsors
 Merchants, corporations, and NGOs to provide challenge locations and prize support.
 
