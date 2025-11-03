@@ -219,7 +219,7 @@
 
 - Established brand in 10+ markets
 - $10M+ annual revenue
-- Category leader in payment-based reality
+- Category leader in redemption-based reality
 - Strategic partnerships with major platforms
 
 ### Year 5: Global Expansion

@@ -4,7 +4,7 @@
 
 ## Overview
 
-The QuestPay™ selection process is designed to identify contestants who will create compelling television, represent diverse demographics, and successfully navigate payment-based challenges.
+The QuestPay™ selection process is designed to identify contestants who will create compelling television, represent diverse demographics, and successfully navigate redemption-based challenges.
 
 ---
 

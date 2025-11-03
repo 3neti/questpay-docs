@@ -70,6 +70,12 @@ This creates a true redemption economy where contestants earn rewards through ve
 4. **For Sponsors**: Delivers measurable redemption engagement and brand participation
 5. **For Society**: Promotes financial inclusion and digital literacy
 
+### Strategic Context: The Big Switch
+
+QuestPay™ is a key driver of **Maya's strategic transformation** from destination wallet to the **origin of digital value**. By creating high-frequency redemption events through competitive gameplay, QuestPay normalizes voucher usage and positions Maya as the platform where digital value begins.
+
+[Learn more about The Big Switch strategy →](strategy.md)
+
 ### For Wallet Partners Specifically
 
 QuestPay™ enables a fundamental business model evolution:
@@ -190,4 +196,4 @@ Ready to learn more? Continue to:
 
 ---
 
-[← Back to Home](index.md) | [Continue to Game Concept →](concept.md)
+[← Back to Home](index.md) | [Continue to Strategic Context →](strategy.md)

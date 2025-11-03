@@ -27,6 +27,12 @@ QuestPay™ operates on the principle that **redemption equals proof of achievem
 
 Each player action is verified, rewarded, and recorded through x-Change's secure voucher infrastructure.
 
+### Part of The Big Switch
+
+QuestPay™ isn't just entertainment — it's **market education infrastructure** that drives Maya's transformation from wallet to the **origin of digital value**. Every episode creates redemption velocity, normalizes voucher usage, and positions Maya as the platform where digital value begins.
+
+[Explore the strategic context →](strategy.md)
+
 ### The Flow
 
 **Players act → System verifies → Game pays.**
@@ -104,4 +110,4 @@ We transform redemption into reward, verification into value, and challenges int
 
 ---
 
-[← Back to Executive Overview](executive-overview.md) | [Continue to Game Concept →](concept.md)
+[← Back to Strategic Context](strategy.md) | [Continue to Game Concept →](concept.md)
