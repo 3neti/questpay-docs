@@ -4,7 +4,9 @@
 
 ## Game Premise
 
-QuestPay™ contestants (individuals or teams) embark on a multi-stage adventure where progression requires completing verified digital payment transactions.
+QuestPay™ contestants (individuals or teams) embark on a multi-stage adventure where progression requires completing verified redemption challenges.
+
+**In QuestPay™, every redemption fuels the race toward the ultimate quest.**
 
 ### The Core Loop
 
@@ -30,11 +32,15 @@ QuestPay™ contestants (individuals or teams) embark on a multi-stage adventure
 
 ### What Makes It Work
 
-- **Real transactions** = Real verification (no faking it)
-- **Digital trail** = Transparent, auditable gameplay
-- **Partner integration** = Merchants and services become game locations
-- **Scalable difficulty** = From simple purchases to complex multi-step missions
-- **Viewer participation** = Audience can follow along and predict outcomes
+- **Real redemptions** = Real verification (no faking it)
+- **Digital trail** = Transparent, auditable gameplay via voucher redemptions
+- **Partner integration** = Merchants and services become redemption locations
+- **Scalable difficulty** = From simple redemptions to complex multi-step quests
+- **Viewer participation** = Audience can follow redemption progress and predict outcomes
+
+### The Redemption Engine
+
+The true heartbeat of QuestPay™ — where x-Change transforms redemptions into triumphs. Every voucher redeemed triggers verification, every landing page reveals opportunities, and every completed challenge unlocks the next quest.
 
 ---
 
@@ -44,7 +50,7 @@ QuestPay™ can be adapted to various thematic editions, each with unique appeal
 
 ### 🏙️ Urban Explorer
 
-**Concept**: City-wide scavenger hunt combining navigation, discovery, and payments.
+**Concept**: City-wide scavenger hunt combining navigation, discovery, and redemption challenges.
 
 **Sample Challenges**:
 
@@ -181,7 +187,7 @@ QuestPay™ can be adapted to various thematic editions, each with unique appeal
 **Act 2: The Quest (30 min)**
 
 - Contestants navigate to locations
-- Complete payment-based challenges
+- Complete redemption-based challenges
 - Real-time verification and progression
 - Drama, setbacks, and victories
 - Social media integration showing viewer reactions

@@ -19,9 +19,9 @@ QuestPay™ requires different messaging for different audiences. We've develope
 
 ### Key Emphasis
 
-**Brand ROI & Engagement**
+**Redemption Engagement & Brand ROI**
 
-- Transaction attribution and measurement
+- Redemption attribution and measurement
 - User acquisition metrics
 - Brand exposure quantification
 - Social media amplification
@@ -29,11 +29,11 @@ QuestPay™ requires different messaging for different audiences. We've develope
 
 ### Core Messages
 
-1. **Measurable Impact**: Direct attribution of transactions to show participation
+1. **Measurable Impact**: Direct attribution of redemptions to show participation
 2. **Youth Engagement**: Access to digitally-savvy demographic
-3. **Innovation Association**: Position brand as forward-thinking
+3. **Innovation Association**: Position brand as forward-thinking via redemption mechanics
 4. **Content Marketing**: Authentic brand integration vs. traditional ads
-5. **Data Insights**: User behavior and preference data
+5. **Redemption Insights**: User behavior and preference data through voucher analytics
 
 ### Deck Structure
 
@@ -71,8 +71,8 @@ QuestPay™ requires different messaging for different audiences. We've develope
 
 ### Core Messages
 
-1. **Proven Format**: Reality competition + payments = tested formula
-2. **Scalable IP**: Franchiseable across markets and themes
+1. **Proven Format**: Reality competition + redemption mechanics = tested formula
+2. **Scalable IP**: Franchiseable redemption mechanics across markets and themes
 3. **Multiple Revenue Streams**: Not just ad-dependent
 4. **Celebrity Opportunities**: Host, judge, or producer roles
 5. **Growth Potential**: Pilot → Season → Franchise → Global
@@ -114,11 +114,11 @@ QuestPay™ requires different messaging for different audiences. We've develope
 
 ### Core Messages
 
-1. **Built on x-Change**: Proven voucher platform
+1. **Built on x-Change**: Proven redemption platform
 2. **API-First Design**: Easy integration with existing wallets
-3. **Real-Time Verification**: Instant transaction confirmation
-4. **Compliance-Ready**: KYC/AML built-in
-5. **Scalable Architecture**: Handle 100k+ concurrent users
+3. **Real-Time Verification**: Instant redemption validation
+4. **Compliance-Ready**: KYC/AML built-in via redemption wizard
+5. **Scalable Architecture**: Handle 100k+ concurrent redemptions
 
 ### Deck Structure
 
@@ -142,7 +142,7 @@ QuestPay™ requires different messaging for different audiences. We've develope
 
 All three decks share:
 
-- QuestPay™ brand identity and tagline
+- QuestPay™ brand identity and tagline: **"Redeem. Race. Repeat."**
 - Core concept explanation
 - Sample gameplay scenarios
 - Market validation data

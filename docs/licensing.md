@@ -10,7 +10,8 @@
 
 **Coverage**:
 - Name and logo
-- Tagline: "Every payment is a step closer to victory"
+- Tagline: **"Redeem. Race. Repeat."** (v2.0)
+- Previous tagline: "Every payment is a step closer to victory" (v1.0)
 - Format concept and mechanics
 - Visual identity and branding
 
@@ -129,8 +130,8 @@ Licensees may adapt:
 ### Protected Core Elements
 
 Must remain consistent:
-- Payment-based verification mechanic
-- Progressive code unlocking system
+- Redemption-based verification mechanic
+- Progressive voucher unlocking system
 - Real-time leaderboard
 - Audience participation layer
 - Brand identity fundamentals
@@ -195,7 +196,7 @@ QuestPay™ is built on x-Change voucher platform owned by 3neti R&D OPC
 
 ### Revenue Sharing
 
-- Platform fees for voucher transactions
+- Platform fees for voucher redemptions
 - Technology licensing revenue
 - Joint venture profits (if applicable)
 

@@ -77,7 +77,7 @@ Real-time streaming on YouTube, Facebook, TikTok, or Twitch with continuous cove
 - Multi-camera mobile streaming setup
 - Real-time graphics and overlays
 - Chat moderation tools
-- Live transaction feed integration
+- Live redemption feed integration
 
 ---
 

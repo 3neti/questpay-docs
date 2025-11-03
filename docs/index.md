@@ -4,18 +4,18 @@
 
 ## Welcome
 
-**QuestPay™** is a revolutionary reality-based competition where players complete real-world challenges using digital payments, earning clues, codes, and cash as they progress through an immersive gamified experience.
+**QuestPay™** is a revolutionary redemption-driven reality race where players complete real-world challenges, redeem voucher codes to verify progress, and compete for clues, codes, and cash through an immersive gamified experience.
 
 ### Concept Tagline
-> *"Every payment is a step closer to victory."*
+> **"Redeem. Race. Repeat."**
 
 ### What Makes QuestPay™ Unique?
 
-- **Real-world gameplay** combining physical challenges with digital transactions
-- **Financial inclusion** showcasing the power of modern fintech
+- **Real-world gameplay** combining physical challenges with redemption-verified transactions
+- **Redemption-powered mechanics** showcasing the power of x-Change voucher technology
 - **Scalable format** adaptable for TV, livestreaming, or city-wide events
 - **Multi-party engagement** involving contestants, viewers, sponsors, and merchants
-- **Transparent verification** powered by x-Change voucher technology
+- **Transparent verification** through voucher redemption and real-time validation
 
 ---
 
@@ -36,11 +36,11 @@
 
 ## The Vision
 
-Transform ordinary financial transactions into extraordinary adventures while:
+Transform ordinary redemptions into extraordinary adventures while:
 
-- **Educating** the public about digital payments and financial technology
+- **Educating** the public about voucher-based transactions and financial technology
 - **Entertaining** through immersive, competitive storytelling
-- **Empowering** financial inclusion across all demographics
+- **Empowering** financial inclusion through redemption-driven gameplay
 - **Engaging** brands, merchants, and communities in meaningful ways
 
 ---

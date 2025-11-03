@@ -7,7 +7,7 @@
 | Stream | Description | Estimated % of Total Revenue |
 |--------|-------------|------------------------------|
 | **Sponsorship Fees** | Per episode or season from corporate brands | 50-60% |
-| **Transaction Revenue** | Small % cut per QuestPay voucher redemption | 10-15% |
+|| **Redemption Revenue** | Small % cut per QuestPay voucher redemption | 10-15% |
 | **Licensing Rights** | IP licensing for regional or themed editions | 15-20% |
 | **Advertising & Media Rights** | Broadcast ad slots, streaming royalties | 10-15% |
 | **Merchandising** | Digital badges, collectibles, branded gear | 2-5% |
@@ -26,7 +26,7 @@
 **Sources**:
 - Primary sponsor: $200k-400k
 - Episode sponsors: $50k-150k
-- Transaction fees: $20k-50k
+- Redemption fees: $20k-50k
 - Licensing/other: $30k-100k
 
 ### Full Season 1 (12 episodes)
@@ -39,7 +39,7 @@
 - Title sponsor: $800k-1.5M
 - Episode sponsors: $400k-800k
 - Merchant partners: $150k-300k
-- Transaction fees: $100k-200k
+- Redemption fees: $100k-200k
 - Media/advertising: $50k-200k
 
 ### Mature Operation (Year 3+)

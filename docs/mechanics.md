@@ -4,7 +4,11 @@
 
 ## Player Journey Overview
 
-The QuestPay™ player experience follows a carefully designed cycle that combines physical exploration, digital transactions, and competitive strategy.
+The QuestPay™ player experience follows a carefully designed cycle that combines physical exploration, voucher redemption, and competitive strategy.
+
+### The Redemption Loop: Redeem. Race. Repeat.
+
+Each challenge follows the redemption rhythm — receive voucher, complete mission, redeem with proof, race to the landing page, and repeat for the next quest.
 
 ---
 
@@ -183,7 +187,7 @@ sequenceDiagram
 
 **For Viewers**:
 - All contestant positions
-- Transaction heat map
+- Redemption heat map
 - Predicted winners
 - Side quest opportunities
 

@@ -326,9 +326,9 @@ Instagram: @questpay.ph
 
 ---
 
-**Ready to turn payments into adventure?**
+**Ready to race for redemption?**
 
-Let's build QuestPay™ together.
+**Join QuestPay™ — Redeem. Race. Repeat.**
 
 ---
 
