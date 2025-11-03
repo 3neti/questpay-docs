@@ -29,7 +29,6 @@
 | Section | Description |
 |---------|-------------|
 | [Executive Overview](executive-overview.md) | Vision, mission, and core concept |
-| [Strategic Context](strategy.md) | The Big Switch — Maya's market transformation strategy |
 | [Brand Philosophy](brand.md) | Why QuestPay™ — the meaning and positioning |
 | [Game Concept](concept.md) | Premise, themes, and gameplay mechanics |
 | [Participant Journey](recruitment.md) | From registration to selection |
