@@ -8,17 +8,25 @@ QuestPay™ contestants (individuals or teams) embark on a multi-stage adventure
 
 ### The Core Loop
 
-1. **Receive a QuestPay voucher code** (via SMS, email, or webhook) with optional QR representation
-2. **Redeem the voucher** which triggers x-Change's rich redemption flow:
+1. **Receive a QuestPay voucher code** triggered by an action (completing previous challenge, registration, CTA click, etc.) and delivered via SMS or email with optional QR representation
+2. **Complete the mission** involving a real-world transaction or task
+3. **Redeem the voucher** which triggers x-Change's rich redemption flow:
    - Splash page displays challenge message and instructions
-   - Contestant redirected to interactive landing page
-   - Landing page collects required inputs (text responses, location, photos, signatures, KYC data)
-   - System sends confirmation via email, SMS, and webhook
-3. **Complete the mission** involving a real-world transaction or task
-4. **Submit proof** through the landing page (receipt photo, location check-in, survey responses, etc.)
-5. **Automatic verification** via x-Change webhooks and API validation
-6. **Receive next voucher code** on the landing page, completing the loop
-7. **Progress toward final quest** and grand prize
+   - **Redemption wizard collects required inputs and proof** (text responses, receipt photos, location check-ins, signatures, KYC data, survey responses)
+   - Contestant must complete all required inputs to redeem successfully
+   - Upon successful redemption, contestant redirected to interactive landing page
+4. **Game operator receives real-time feedback** via webhook with:
+   - Redemption status and collected data
+   - Automatic verification via x-Change webhooks and API validation
+   - Completion status
+5. **Landing page presents interactive challenge elements:**
+   - Challenge details and mission objectives
+   - **Sponsor activations**: Download mobile app, register for service, watch video/ad
+   - **Interactive tasks**: Solve puzzles, complete captcha, answer trivia
+   - **Educational content**: Tutorial videos, product demos, brand storytelling
+   - Links to merchants, locations, or partner platforms
+   - **Next voucher code revealed** after verification is complete
+6. **Progress toward final quest** and grand prize (return to step 1 with new voucher)
 
 ### What Makes It Work
 

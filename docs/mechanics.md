@@ -12,10 +12,16 @@ The QuestPay™ player experience follows a carefully designed cycle that combin
 
 ### Step 1: Receive QuestPay Voucher Code
 
-**Delivery**: Voucher code (with optional QR) via:
-- SMS (primary method)
+**Voucher Generation Triggered By**:
+- Completing previous challenge
+- Initial registration/sign-up
+- Marketing CTA click
+- Scheduled game event
+- Producer action
+
+**Delivery Method**: Voucher code (with optional QR) via:
+- **SMS** (primary method)
 - Email with embedded code
-- Webhook to mobile app
 - Physical card with voucher number
 
 **Voucher Contains**:
@@ -24,101 +30,144 @@ The QuestPay™ player experience follows a carefully designed cycle that combin
 - Challenge identifier
 - Redemption URL
 
-### Step 2: Redeem Voucher via x-Change
-
-**x-Change Redemption Flow**:
-
-1. **Contestant clicks/enters voucher code**
-2. **x-Change validates** the code and logs redemption
-3. **Splash page displays** with challenge message and branding
-4. **Automatic redirect** to interactive landing page
-5. **Landing page presents**:
-   - Challenge instructions and objectives
-   - Required input forms (text, location, photos, signatures)
-   - Optional KYC verification
-   - Mission briefing and tips
-6. **System sends confirmations** via email, SMS, and webhook
-7. **Contestant completes inputs** and submits initial data
-
-**Landing Page Features**:
-- Survey-like data collection
-- Photo/video upload for proof
-- GPS location capture
-- Digital signature collection
-- Real-time validation feedback
-- Progress tracking
-
-### Step 3: Perform Mission Transaction
+### Step 2: Complete the Mission
 
 **Transaction Types**:
 
-| Type | Example | Verification |
+| Type | Example | Proof Required |
 |------|---------|--------------|
-| **Purchase** | Buy specific item from merchant | Receipt + API confirmation |
-| **Bill Payment** | Pay utility or service bill | Payment reference number |
-| **Donation** | Contribute to charity | NGO receipt + webhook |
-| **Transfer** | Send money to someone | Transaction ID |
+| **Purchase** | Buy specific item from merchant | Receipt photo |
+| **Bill Payment** | Pay utility or service bill | Payment reference |
+| **Donation** | Contribute to charity | Receipt + transaction ID |
+| **Transfer** | Send money to someone | Transaction screenshot |
 | **Top-Up** | Add load or credits | Confirmation code |
+| **Location Visit** | Check-in at specific place | GPS + photo |
+| **Task Completion** | Solve puzzle, watch video | Screenshot/answer |
 
 **Challenge Variations**:
 - Simple: Single transaction at known location
 - Moderate: Multiple steps or budget constraints
 - Complex: Strategy required, multiple locations, time pressure
 
-### Step 4: Verification & Proof Submission
+### Step 3: Redeem Voucher with Proof
 
-**x-Change Multi-Channel Verification**:
+**x-Change Redemption Flow**:
+
+1. **Contestant clicks voucher link or enters code**
+2. **x-Change validates** the code and logs redemption attempt
+3. **Splash page displays** with challenge recap and branding
+4. **Redemption wizard launches** - contestant MUST complete to redeem:
+   - Upload receipt photo or proof
+   - Submit location check-in (GPS coordinates)
+   - Enter text responses or survey answers
+   - Capture digital signature if required
+   - Provide KYC data if needed
+   - Answer verification questions
+5. **x-Change validates inputs** in real-time
+6. **Upon successful redemption**, contestant redirected to landing page
+
+**Redemption Wizard Features**:
+- Step-by-step guided input collection
+- Photo/video upload with preview
+- GPS location capture with map
+- Digital signature pad
+- Real-time validation feedback
+- Cannot proceed without completing required fields
+
+### Step 4: Game Operator Receives Feedback
+
+**x-Change Webhook Notifications to Game Engine**:
 
 ```mermaid
 sequenceDiagram
-    Contestant->>Landing Page: Submits proof (photo/location/data)
-    Landing Page->>x-Change: Validates submission
-    x-Change->>Email: Sends confirmation
-    x-Change->>SMS: Sends notification
-    x-Change->>Webhook: Triggers game engine
-    Webhook->>QuestPay Engine: Verify challenge completion
-    QuestPay Engine->>Leaderboard: Update status
-    QuestPay Engine->>x-Change: Generate next voucher
-    x-Change->>Landing Page: Display next code
-    Landing Page->>Contestant: Show next voucher + instructions
+    Contestant->>x-Change: Submits proof via redemption wizard
+    x-Change->>x-Change: Validates inputs
+    x-Change->>Game Engine: Webhook - redemption status
+    x-Change->>Game Engine: Webhook - collected data & proof
+    Game Engine->>Validation Logic: Verify challenge completion
+    Validation Logic->>Game Engine: Completion status
+    Game Engine->>Leaderboard: Update contestant status
+    Game Engine->>x-Change: Generate next voucher
+    x-Change->>Landing Page: Display next voucher code
 ```
 
-**Verification Methods**:
-- Photo/receipt uploads validated
+**Webhook Payload Includes**:
+- Redemption timestamp
+- Contestant identifier
+- All collected inputs and proof
+- Validation results
+- GPS coordinates
+- Photos/media URLs
+- Completion status
+
+**Automatic Verification**:
+- Photo/receipt validation against requirements
 - GPS coordinates verified against target location
-- Transaction webhooks from partner wallet
-- Text responses checked against criteria
-- Signature or KYC confirmation
-- Time stamp validation
+- Transaction data cross-checked via partner wallet API
+- Text responses evaluated against criteria
+- Timestamp validation (within time limits)
+- Duplicate detection
 
-**Multi-Channel Feedback**:
-- Email: Full challenge summary and next code
-- SMS: Quick confirmation and voucher code
-- Webhook: Real-time data to game engine and apps
-- Landing page: Immediate visual feedback and next steps
+### Step 5: Landing Page Interactive Experience
 
-### Step 5: Leaderboard Update
+**Landing Page Presents**:
+
+**Challenge Summary**:
+- What was accomplished
+- Points earned
+- Time taken
+- Current leaderboard position
+
+**Sponsor Activations** (optional, configurable):
+- Download mobile app (with incentive)
+- Register for service or newsletter
+- Watch sponsored video or advertisement
+- Complete product survey
+- Redeem promotional offer
+
+**Interactive Elements**:
+- Solve bonus puzzle for extra points
+- Complete captcha for next clue
+- Answer trivia questions
+- Share achievement on social media
+
+**Educational Content**:
+- Tutorial videos about next challenge
+- Product demonstrations
+- Brand storytelling
+- Financial literacy tips
+
+**Next Step Reveal**:
+- **Next voucher code displayed** (after verification completes)
+- Preview of next challenge theme
+- Time until next challenge unlocks
+- Links to merchants or locations
+
+### Step 6: Leaderboard Update
 
 **Real-Time Updates**:
 - Contestant position
 - Time taken
 - Points earned
 - Next challengers behind them
+- Badges or achievements unlocked
 
 **Broadcast Integration**:
 - Live graphics on TV/stream
 - Social media bot updates
 - Mobile app notifications
 - Physical leaderboard displays
+- Viewer app updates
 
-### Step 6: Receive Next Voucher Code
+### Step 7: Progress to Next Challenge
 
-**Progressive Unlocking via Landing Page**:
-- Next voucher code displayed immediately on landing page
-- Email and SMS backup delivery
+**Loop Completion**:
+- Contestant has next voucher code from landing page
+- Email and SMS backup delivery of code
 - Voucher includes preview of next challenge
 - Difficulty increases with each stage
 - Final quest requires collecting all previous codes
+- Return to Step 1 with new voucher
 
 ---
 

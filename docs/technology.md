@@ -118,23 +118,23 @@ QuestPay™ is built on a layered architecture integrating voucher technology, p
 
 ```mermaid
 graph TD
-    A[Contestant] -->|Receives Voucher| B[SMS/Email/Webhook]
-    B -->|Clicks Link| C[x-Change Redemption]
-    C -->|Splash Page| D[Challenge Message]
-    D -->|Redirect| E[Landing Page]
-    E -->|Collects| F[Inputs: Text, Photos, Location, Signature]
-    F -->|Submits| C
-    C -->|Validates| G[Verification Logic]
-    G -->|Email Confirmation| A
-    G -->|SMS Notification| A
-    G -->|Webhook| H[QuestPay Game Engine]
-    H -->|Updates| I[Leaderboard]
-    H -->|Generates| J[Next Voucher]
-    J -->|Displays on| E
-    J -->|Sends via| C
-    C -->|Email/SMS| A
-    I -->|Broadcast| K[TV/Stream/Apps]
-    H -->|Logs| L[Audit Layer]
+    A[Contestant] -->|Triggered Action| B[Voucher Generated]
+    B -->|SMS/Email| C[Receives Voucher Code]
+    C -->|Completes Mission| D[Real-world Transaction/Task]
+    D -->|Clicks Voucher Link| E[x-Change Splash Page]
+    E -->|Launches| F[Redemption Wizard]
+    F -->|Collects Proof| G[Photos, Location, Text, Signature]
+    G -->|Validates| F
+    F -->|Successful| H[Landing Page]
+    F -->|Webhook| I[Game Engine]
+    I -->|Auto Verify| J[Validation Logic]
+    J -->|Update| K[Leaderboard]
+    I -->|Generate| L[Next Voucher]
+    L -->|Display on| H
+    H -->|Sponsor Activations| M[Apps, Videos, Puzzles]
+    H -->|Shows Next Code| A
+    K -->|Broadcast| N[TV/Stream/Apps]
+    I -->|Logs All| O[Audit Layer]
 ```
 
 ---
