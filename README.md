@@ -1,17 +1,22 @@
-# x-Change Documentation
+# QuestPay™ Documentation
 
-This repository contains the comprehensive documentation for x-Change, a programmable digital voucher system for financial inclusion and digital disbursement.
+This repository contains the comprehensive documentation for QuestPay™, a reality-based competition game where players complete real-world challenges using digital payments.
 
 ## Documentation Structure
 
-- **White Paper** - Technical overview and foundational concepts
-- **Information Memorandum** - Complete business and technical documentation
-- **Frequently Asked Questions** - Common questions and answers
-- **Appendices A-K** - Detailed supporting documentation covering financial models, technical architecture, compliance, and more
+- **Executive Overview** - Vision, mission, and core concept
+- **Game Concept** - Premise, themes, and format options
+- **Participant Recruitment** - Registration, onboarding, and selection process
+- **Game Mechanics** - Flow, real-time elements, and player journey
+- **Technology Integration** - System architecture, security, and compliance
+- **Sponsorship Model** - Partnership types and brand activation opportunities
+- **Monetization** - Revenue streams and business model
+- **Production Plan** - Phased rollout, partners, and timeline
+- **IP & Licensing** - Intellectual property and format rights
 
 ## View Documentation
 
-The documentation is hosted on ReadTheDocs at: [x-change-docs.readthedocs.io](https://x-change-docs.readthedocs.io)
+The documentation is hosted on ReadTheDocs at: [questpay-docs.readthedocs.io](https://questpay-docs.readthedocs.io)
 
 ## Local Development
 
@@ -32,6 +37,11 @@ To build the static site:
 mkdocs build
 ```
 
-## About x-Change
+## About QuestPay™
 
-x-Change is a programmable digital voucher system that flips traditional money transfer on its head—by letting the recipient decide where and how to redeem funds. We're building programmable, account-agnostic digital cash that's app-less for recipients, KYC/AML compliant for issuers, and secure by design.
+**Tagline:** *"Every payment is a step closer to victory."*
+
+QuestPay™ is a reality-based competition where players complete real-world challenges using digital payments, earning clues, codes, and cash as they progress. Our mission is to showcase the power and inclusivity of modern fintech through immersive, gamified storytelling—turning ordinary financial transactions into extraordinary adventures.
+
+**Powered by x-Change voucher technology**  
+Developed by 3neti R&D OPC

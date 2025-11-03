@@ -1,21 +1,25 @@
-site_name: x-Change - Information Memorandum
+site_name: QuestPay™ - Reality Game Proposal
 
 theme:
   name: material
+  palette:
+    primary: deep purple
+    accent: amber
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
     - content.code.annotate
     - content.code.copy
+    - navigation.top
 
 plugins:
   - search
   - with-pdf:
       author: 'Lester B. Hurtado'
       copyright: 'Copyright © 2025 3neti R&D OPC'
-      cover_title: 'x-Change Information Memorandum'
-      cover_subtitle: 'A Fintech Platform for Financial Inclusion and Digital Disbursement'
+      cover_title: 'QuestPay™ Reality Game Proposal'
+      cover_subtitle: 'Every payment is a step closer to victory'
       cover_logo: null
       back_cover: true
       toc_title: 'Table of Contents'
@@ -28,14 +32,11 @@ plugins:
       two_columns_level: 3
       render_js: false
       headless_chrome_path: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
-      output_path: 'pdf/x-change_information_memorandum.pdf'
+      output_path: 'pdf/questpay_reality_game_proposal.pdf'
       enabled_if_env: null
       debug_html: false
       show_anchors: true
       verbose: true
-
-extra_css:
-  - stylesheets/print.css
 
 markdown_extensions:
   - pymdownx.superfences:
@@ -43,28 +44,39 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - tables
   - toc:
       permalink: true
 
-extra_javascript:
-  - https://unpkg.com/mermaid/dist/mermaid.min.js
-  - https://unpkg.com/handlebars@4.7.8/dist/handlebars.min.js
-  - javascripts/mermaid-init.js
-  - javascripts/handlebars-helpers.js
-  - javascripts/export-interface.js
-
 nav:
-  - Home: X-CHANGE_WHITE_PAPER.md
-  - Frequently Asked Questions: X-CHANGE_FAQ.md
-  - Information Memorandum: X-CHANGE_INFO_MEMO.md
-  - Appendix A - Financial Model: X-CHANGE_INFO_MEMO_APPENDIX_A_FINANCIAL_MODEL.md
-  - Appendix B - Technical Architecture: X-CHANGE_INFO_MEMO_APPENDIX_B_TECHNICAL_ARCHITECTURE.md
-  - Appendix C - Regulatory and Compliance: X-CHANGE_INFO_MEMO_APPENDIX_C_REGULATORY_AND_COMPLIANCE.md
-  - Appendix D - Intellectual Property Plan: X-CHANGE_INFO_MEMO_APPENDIX_D_INTELLECTUAL_PROPERTY_PLAN.md
-  - Appendix E - Pitch Deck Summary: X-CHANGE_INFO_MEMO_APPENDIX_E_PITCH_DECK_SUMMARY.md
-  - Appendix F - Market References: X-CHANGE_INFO_MEMO_APPENDIX_F_MARKET_REFERENCES.md
-  - Appendix G - Corporate and Legal Structure: X-CHANGE_INFO_MEMO_APPENDIX_G_CORPORATE_AND_LEGAL_STRUCTURE.md
-  - Appendix H - Key Personnel Incentive Plan: X-CHANGE_INFO_MEMO_APPENDIX_H_KEY_PERSONNEL_INCENTIVE_PLAN.md
-  - Appendix I - Risk Register and Mitigation Matrix: X-CHANGE_INFO_MEMO_APPENDIX_I_RISK_REGISTER_AND_MITIGATION_MATRIX.md
-  - Appendix J - Audit and Monitoring Framework: X-CHANGE_INFO_MEMO_APPENDIX_J_AUDIT_AND_MONITORING_FRAMEWORK.md
-  - Appendix K - Term Sheet: X-CHANGE_INFO_MEMO_APPENDIX_K_TERM_SHEET.md
+  - Home: index.md
+  - Executive Overview: executive-overview.md
+  - Game Concept:
+      - Premise & Themes: concept.md
+      - Format Options: format.md
+  - Participant Journey:
+      - Recruitment & Onboarding: recruitment.md
+      - Selection Process: selection.md
+  - Game Mechanics:
+      - Player Journey: mechanics.md
+      - Real-Time Elements: realtime.md
+  - Technology:
+      - System Architecture: technology.md
+      - Security & Compliance: compliance.md
+  - Business Model:
+      - Sponsorship & Partnerships: sponsorship.md
+      - Monetization: monetization.md
+  - Production:
+      - Production Plan: production.md
+      - Three Decks: decks.md
+  - IP & Licensing: licensing.md
+  - Next Steps: nextsteps.md
