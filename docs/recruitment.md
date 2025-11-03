@@ -124,44 +124,58 @@ Powered by partner wallet's existing KYC:
 
 **Timeline**: 1-3 business days
 
-### Step 3: Onboarding Code Issuance
+### Step 3: Onboarding Voucher Issuance
 
-Each participant receives a unique **QuestPay Onboarding Code**:
+Each participant receives a unique **QuestPay Onboarding Voucher**:
 
 **Delivery Method**:
 
-- QR code via email
-- Deep link via SMS
-- In-app notification (if partner wallet integration)
+- **Voucher code via SMS** (primary)
+- Voucher code via email with optional QR
+- Webhook to mobile app (if integrated)
 
-**Code Purpose**:
+**Voucher Purpose**:
 
 - Verification of official entry
-- Access to pre-game tutorial
+- Triggers x-Change redemption flow with splash page
+- Redirects to onboarding landing page
 - Gateway to warm-up challenge
 - Unique identifier for tracking
 
 ### Step 4: Warm-Up Challenge
 
-A simple introductory task to familiarize participants with the game mechanics:
+A simple introductory task to familiarize participants with x-Change redemption mechanics:
+
+**Redemption Experience**:
+1. Contestant receives voucher via SMS/email
+2. Clicks voucher link → x-Change splash page displays welcome message
+3. Redirected to interactive landing page
+4. Landing page presents warm-up challenge instructions
+5. Contestant submits required inputs (text, photo, location, etc.)
+6. x-Change sends confirmation via email, SMS, and webhook
+7. Next voucher code displayed on landing page
 
 **Sample Warm-Up Challenges**:
 
-- Donate ₱10 to featured charity
-- Top-up mobile load
-- Pay for digital content
-- Share campaign video on social media
-- Complete financial literacy quiz
+- Upload a selfie with QuestPay hashtag
+- Submit location check-in at a landmark
+- Complete 5-question financial literacy quiz
+- Donate ₱10 to charity and upload receipt photo
+- Record 10-second video introduction
 
 **Benefits**:
 
-- Tests technical setup
-- Confirms wallet functionality
-- Teaches basic mechanics
+- Tests x-Change voucher redemption flow
+- Familiarizes with landing page interactions
+- Validates SMS/email/webhook delivery
+- Tests media upload capabilities
 - Filters out inactive registrants
 - Creates early engagement
 
-**Verification**: Automatic via API webhook from partner wallet
+**Verification**: 
+- Automatic via x-Change webhooks
+- Photo/data validation on landing page
+- Multi-channel confirmation (email + SMS + webhook)
 
 ### Step 5: Shortlist Entry
 
@@ -224,14 +238,17 @@ To ensure broad representation:
 - Contestant profiles published
 - Pre-show promotional content begins
 
-### Confirmation Code
+### Confirmation Voucher
 
-Selected contestants receive a **QuestPay Contestant Code** that:
+Selected contestants receive a **QuestPay Contestant Voucher** that:
 
-- Activates their official profile
-- Grants access to contestant portal
+- Activates their official profile via x-Change redemption
+- Splash page welcomes them as official contestant
+- Landing page provides access to contestant portal
+- Collects final KYC data and digital signatures
 - Enables participation in the competition
 - Links to production schedule and logistics
+- Delivers first episode voucher code upon completion
 
 ---
 

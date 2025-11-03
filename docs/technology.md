@@ -12,20 +12,31 @@ QuestPay™ is built on a layered architecture integrating voucher technology, p
 
 ### 1. x-Change Voucher Engine
 
-**Purpose**: Issues, redeems, and validates QuestPay codes
+**Purpose**: Issues, redeems, and validates QuestPay voucher codes with rich interactive redemption flows
 
-**Capabilities**:
-- Generate unique QR codes/vouchers
-- Redeem and validate codes
-- Track code lifecycle
-- Integrate with multiple wallets
-- API for programmatic access
+**Core Capabilities**:
+- Generate unique voucher codes with optional QR representation
+- Validate and redeem codes via web or API
+- Configurable splash pages with custom messaging
+- Dynamic landing page redirects for data collection
+- Track complete voucher lifecycle and redemption history
+
+**Redemption Features**:
+- **Multi-Channel Notifications**: Email, SMS, and webhook delivery
+- **Interactive Landing Pages**: Collect text, photos, signatures, location, KYC data
+- **Survey-like Forms**: Custom input fields for challenge-specific data
+- **Media Upload**: Photo and video proof submission
+- **GPS Tracking**: Location verification and check-ins
+- **Digital Signatures**: Capture contestant acknowledgments
+- **Real-time Validation**: Immediate feedback on submissions
+- **Progressive Disclosure**: Display next voucher code upon completion
 
 **Technology Stack**:
 - Laravel PHP framework
 - PostgreSQL database
 - Redis for caching
 - RESTful API
+- Responsive web interface
 
 ### 2. QuestPay Game Layer
 
@@ -107,18 +118,23 @@ QuestPay™ is built on a layered architecture integrating voucher technology, p
 
 ```mermaid
 graph TD
-    A[Contestant] -->|Scans Code| B[QuestPay App]
-    B -->|Validate| C[x-Change Engine]
-    C -->|Return Challenge| B
-    A -->|Complete Transaction| D[Partner Wallet]
-    D -->|Webhook| C
-    C -->|Verify| E[Game Engine]
-    E -->|Update| F[Leaderboard]
-    E -->|Issue Next Code| C
-    C -->|Send to Contestant| B
-    F -->|Display| G[Viewer App]
-    F -->|Broadcast Graphics| H[TV/Stream]
-    E -->|Analytics| I[Audit Layer]
+    A[Contestant] -->|Receives Voucher| B[SMS/Email/Webhook]
+    B -->|Clicks Link| C[x-Change Redemption]
+    C -->|Splash Page| D[Challenge Message]
+    D -->|Redirect| E[Landing Page]
+    E -->|Collects| F[Inputs: Text, Photos, Location, Signature]
+    F -->|Submits| C
+    C -->|Validates| G[Verification Logic]
+    G -->|Email Confirmation| A
+    G -->|SMS Notification| A
+    G -->|Webhook| H[QuestPay Game Engine]
+    H -->|Updates| I[Leaderboard]
+    H -->|Generates| J[Next Voucher]
+    J -->|Displays on| E
+    J -->|Sends via| C
+    C -->|Email/SMS| A
+    I -->|Broadcast| K[TV/Stream/Apps]
+    H -->|Logs| L[Audit Layer]
 ```
 
 ---

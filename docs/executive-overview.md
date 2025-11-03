@@ -117,11 +117,15 @@ QuestPay™ can be produced in multiple formats:
 ## Competitive Advantages
 
 1. **First-mover advantage** in payment-based reality competition
-2. **Technology backbone** via proven x-Change platform
+2. **Powerful technology backbone** via x-Change voucher platform:
+   - Rich redemption flows with splash pages and landing pages
+   - Multi-channel delivery (SMS, email, webhooks)
+   - Interactive data collection (photos, location, signatures, KYC)
+   - Real-time verification and progressive unlocking
 3. **Multi-revenue streams** beyond just media rights
 4. **Scalable format** adaptable to any market
 5. **Educational value** attractive to regulators and CSR initiatives
-6. **Measurable ROI** for sponsors through transaction data
+6. **Measurable ROI** for sponsors through transaction data and engagement metrics
 
 ---
 

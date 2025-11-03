@@ -10,35 +10,43 @@ The QuestPay™ player experience follows a carefully designed cycle that combin
 
 ## Sample Player Flow
 
-### Step 1: Receive Initial QuestPay Code
+### Step 1: Receive QuestPay Voucher Code
 
-**Delivery**: QR code or voucher link via:
-- SMS
-- Email  
-- In-app notification
-- Physical card (for special formats)
+**Delivery**: Voucher code (with optional QR) via:
+- SMS (primary method)
+- Email with embedded code
+- Webhook to mobile app
+- Physical card with voucher number
 
-**Code Contains**:
-- Unique identifier
-- Encrypted challenge data
-- Redemption instructions
-- Time limits (if applicable)
+**Voucher Contains**:
+- Unique redemption code
+- Expiration timestamp
+- Challenge identifier
+- Redemption URL
 
-### Step 2: Redeem via Partner Wallet
+### Step 2: Redeem Voucher via x-Change
 
-**Process**:
+**x-Change Redemption Flow**:
 
-1. Contestant scans QR or clicks link
-2. Partner wallet app opens automatically
-3. Code validation occurs via x-Change API
-4. Challenge instructions unlock
-5. Starting funds (if any) credited to wallet
+1. **Contestant clicks/enters voucher code**
+2. **x-Change validates** the code and logs redemption
+3. **Splash page displays** with challenge message and branding
+4. **Automatic redirect** to interactive landing page
+5. **Landing page presents**:
+   - Challenge instructions and objectives
+   - Required input forms (text, location, photos, signatures)
+   - Optional KYC verification
+   - Mission briefing and tips
+6. **System sends confirmations** via email, SMS, and webhook
+7. **Contestant completes inputs** and submits initial data
 
-**Instructions Reveal**:
-- Challenge location or merchant
-- Transaction type required
-- Success criteria
-- Next step hints
+**Landing Page Features**:
+- Survey-like data collection
+- Photo/video upload for proof
+- GPS location capture
+- Digital signature collection
+- Real-time validation feedback
+- Progress tracking
 
 ### Step 3: Perform Mission Transaction
 
@@ -57,25 +65,37 @@ The QuestPay™ player experience follows a carefully designed cycle that combin
 - Moderate: Multiple steps or budget constraints
 - Complex: Strategy required, multiple locations, time pressure
 
-### Step 4: Verification via API Webhook
+### Step 4: Verification & Proof Submission
 
-**Automatic Verification**:
+**x-Change Multi-Channel Verification**:
 
 ```mermaid
 sequenceDiagram
-    Contestant->>Merchant: Makes Payment
-    Merchant->>Wallet: Transaction Processed
-    Wallet->>x-Change: Webhook Notification
-    x-Change->>QuestPay Engine: Verify Challenge
-    QuestPay Engine->>Leaderboard: Update Status
-    QuestPay Engine->>Contestant: Release Next Code
+    Contestant->>Landing Page: Submits proof (photo/location/data)
+    Landing Page->>x-Change: Validates submission
+    x-Change->>Email: Sends confirmation
+    x-Change->>SMS: Sends notification
+    x-Change->>Webhook: Triggers game engine
+    Webhook->>QuestPay Engine: Verify challenge completion
+    QuestPay Engine->>Leaderboard: Update status
+    QuestPay Engine->>x-Change: Generate next voucher
+    x-Change->>Landing Page: Display next code
+    Landing Page->>Contestant: Show next voucher + instructions
 ```
 
-**Verification Checks**:
-- Correct merchant/recipient
-- Correct amount (exact or within range)
-- Completed within time limit
-- Unique transaction (no duplicates)
+**Verification Methods**:
+- Photo/receipt uploads validated
+- GPS coordinates verified against target location
+- Transaction webhooks from partner wallet
+- Text responses checked against criteria
+- Signature or KYC confirmation
+- Time stamp validation
+
+**Multi-Channel Feedback**:
+- Email: Full challenge summary and next code
+- SMS: Quick confirmation and voucher code
+- Webhook: Real-time data to game engine and apps
+- Landing page: Immediate visual feedback and next steps
 
 ### Step 5: Leaderboard Update
 
@@ -91,10 +111,12 @@ sequenceDiagram
 - Mobile app notifications
 - Physical leaderboard displays
 
-### Step 6: Receive Next Quest Code
+### Step 6: Receive Next Voucher Code
 
-**Progressive Unlocking**:
-- Next code delivered immediately upon verification
+**Progressive Unlocking via Landing Page**:
+- Next voucher code displayed immediately on landing page
+- Email and SMS backup delivery
+- Voucher includes preview of next challenge
 - Difficulty increases with each stage
 - Final quest requires collecting all previous codes
 

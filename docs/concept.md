@@ -8,12 +8,17 @@ QuestPay™ contestants (individuals or teams) embark on a multi-stage adventure
 
 ### The Core Loop
 
-1. **Receive a QuestPay code** (QR code or voucher)
-2. **Unlock challenge instructions** by redeeming the code via partner wallet
-3. **Complete the mission** involving a real-world transaction (purchase, donation, bill payment, etc.)
-4. **Verification occurs automatically** via API webhook
-5. **Unlock next QuestPay code** leading to the subsequent challenge
-6. **Progress toward final quest** and grand prize
+1. **Receive a QuestPay voucher code** (via SMS, email, or webhook) with optional QR representation
+2. **Redeem the voucher** which triggers x-Change's rich redemption flow:
+   - Splash page displays challenge message and instructions
+   - Contestant redirected to interactive landing page
+   - Landing page collects required inputs (text responses, location, photos, signatures, KYC data)
+   - System sends confirmation via email, SMS, and webhook
+3. **Complete the mission** involving a real-world transaction or task
+4. **Submit proof** through the landing page (receipt photo, location check-in, survey responses, etc.)
+5. **Automatic verification** via x-Change webhooks and API validation
+6. **Receive next voucher code** on the landing page, completing the loop
+7. **Progress toward final quest** and grand prize
 
 ### What Makes It Work
 
