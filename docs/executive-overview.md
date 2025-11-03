@@ -64,11 +64,22 @@ This creates a true redemption economy where contestants earn rewards through ve
 
 ### Why This Matters
 
-1. **For Fintech**: Demonstrates the power of redemption-based gameplay in real-world settings
+1. **For Fintech**: Demonstrates the power of redemption-based gameplay in real-world settings; enables **non-regulated revenue streams** beyond float and transaction fees
 2. **For Media**: Creates engaging, brand-safe content with built-in monetization
 3. **For Audiences**: Provides entertainment while teaching valuable financial and technical skills
 4. **For Sponsors**: Delivers measurable redemption engagement and brand participation
 5. **For Society**: Promotes financial inclusion and digital literacy
+
+### For Wallet Partners Specifically
+
+QuestPay™ enables a fundamental business model evolution:
+
+- **From**: Float-dependent, BSP-regulated revenue → **To**: Event-based micro-revenue from voucher activity
+- **From**: "Holding money" → **To**: "Moving meaning"
+- **From**: Transactional utility → **To**: Participation platform
+- **From**: Payment convenience → **To**: First mover in the Redemption Economy
+
+> "It's not about interest — it's about interaction."
 
 ---
 

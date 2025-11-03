@@ -7,7 +7,7 @@
 | Stream | Description | Estimated % of Total Revenue |
 |--------|-------------|------------------------------|
 | **Sponsorship Fees** | Per episode or season from corporate brands | 50-60% |
-|| **Redemption Revenue** | Small % cut per QuestPay voucher redemption | 10-15% |
+| **Redemption Revenue** | Voucher generation and advanced feature fees | 10-15% |
 | **Licensing Rights** | IP licensing for regional or themed editions | 15-20% |
 | **Advertising & Media Rights** | Broadcast ad slots, streaming royalties | 10-15% |
 | **Merchandising** | Digital badges, collectibles, branded gear | 2-5% |
@@ -51,19 +51,26 @@
 
 ---
 
-## Transaction Fee Model
+## Voucher Fee Model
 
-### Per-Voucher Fee
+### Voucher Generation & Feature Fees
 
-**Structure**: 1-2% of voucher value OR flat fee per redemption
+**Basic Voucher Generation**: ₱1-₱5 per code  
+**Advanced Features**: ₱1-₱50 per voucher (shared with partner wallet)
 
-**Example**:
-- ₱100 voucher = ₱1-2 fee
-- ₱1000 voucher = ₱10-20 fee
+**Advanced features include**:
+- Rich redemption flows with splash pages
+- Interactive landing pages with data collection
+- Conditional redemption logic
+- Media upload and verification
+- GPS and signature capture
+- Custom branding and messaging
 
-**Volume**: 10,000-50,000 redemptions per season
+**Volume**: 10,000-500,000+ vouchers per season
 
-**Revenue**: $10k-200k per season (scales with audience participation)
+**Revenue**: $50k-500k per season (scales with audience participation and feature usage)
+
+**Key Advantage**: Non-regulated revenue stream independent of BSP float restrictions
 
 ---
 
