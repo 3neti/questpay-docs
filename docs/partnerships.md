@@ -6,12 +6,6 @@
 
 QuestPay™ creates transformative value for technology partners, particularly digital wallet providers. By integrating x-Change's voucher technology, partners evolve from traditional payment processors into **value orchestrators** powering the redemption economy.
 
-### Strategic Context
-
-This partnership model is part of **The Big Switch** — Maya's strategic transformation from destination wallet to the **origin of digital value**. QuestPay™ accelerates this shift by creating redemption velocity and demonstrating the power of open vouchers.
-
-[Read the full strategic context →](strategy.md)
-
 ### The Core Shift
 
 > **"From payments to participation."**
@@ -151,6 +145,12 @@ Once the format proves scalable, Maya can:
 2. Let users **generate, send, and redeem codes** as easily as sending money
 3. Enable **micro-transfers, community aid, gifting, and merchant promos** — all via x-Change
 4. Monetize **voucher creation and redemption events** instead of relying solely on float
+
+### Strategic Context: The Big Switch
+
+This partnership model is part of **The Big Switch** — Maya's strategic transformation from destination wallet to the **origin of digital value**. QuestPay™ accelerates this shift by creating redemption velocity and demonstrating the power of open vouchers.
+
+[Read the full strategic context →](strategy.md)
 
 ---
 
