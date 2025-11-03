@@ -9,6 +9,11 @@
 ### Concept Tagline
 > **"Redeem. Race. Repeat."**
 
+### The Core Principle
+> **Players quest. The system pays.**
+
+*The journey is yours. The payoff is real.*
+
 ### What Makes QuestPay™ Unique?
 
 - **Real-world gameplay** combining physical challenges with redemption-verified transactions
@@ -24,6 +29,7 @@
 | Section | Description |
 |---------|-------------|
 | [Executive Overview](executive-overview.md) | Vision, mission, and core concept |
+| [Brand Philosophy](brand.md) | Why QuestPay™ — the meaning and positioning |
 | [Game Concept](concept.md) | Premise, themes, and gameplay mechanics |
 | [Participant Journey](recruitment.md) | From registration to selection |
 | [Game Mechanics](mechanics.md) | Player flow and real-time elements |

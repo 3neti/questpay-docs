@@ -19,7 +19,7 @@ plugins:
       author: 'Lester B. Hurtado'
       copyright: 'Copyright © 2025 3neti R&D OPC'
       cover_title: 'QuestPay™ Reality Game Proposal'
-      cover_subtitle: 'Every payment is a step closer to victory'
+      cover_subtitle: 'Redeem. Race. Repeat.'
       cover_logo: null
       back_cover: true
       toc_title: 'Table of Contents'
@@ -60,6 +60,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Executive Overview: executive-overview.md
+  - Brand Philosophy: brand.md
   - Game Concept:
       - Premise & Themes: concept.md
       - Format Options: format.md

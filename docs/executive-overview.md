@@ -49,6 +49,19 @@ Every QuestPay™ challenge follows a rhythm:
 
 Each redemption verifies progress, each race reveals purpose, and each repeat builds mastery. This continuous cycle keeps contestants engaged and sponsors connected throughout the journey.
 
+### The Redemption Economy
+
+**Players act → System verifies → Game pays.**
+
+QuestPay™ operates on the principle that **redemption equals proof of achievement**. Every player action is verified, rewarded, and recorded through x-Change's secure voucher infrastructure.
+
+Every redemption is:
+- **Meaningful**: Represents real achievement
+- **Measurable**: Tracked and verified digitally  
+- **Monetizable**: Creates value for all participants
+
+This creates a true redemption economy where contestants earn rewards through verified actions, sponsors gain measurable engagement, and QuestPay™ orchestrates the entire value exchange as a **reward orchestration platform**.
+
 ### Why This Matters
 
 1. **For Fintech**: Demonstrates the power of redemption-based gameplay in real-world settings

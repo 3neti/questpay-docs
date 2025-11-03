@@ -17,6 +17,21 @@
 
 **Territory**: Philippines (primary), with international filings planned
 
+### Trademark Messaging Clarification
+
+When representing QuestPay™:
+
+- The term **"Pay"** in QuestPay™ denotes **issuance of reward or settlement of verified value**, not consumer payment
+- This aligns with QuestPay™'s functional model as a reward orchestration platform
+- Differentiates from payment processors or e-wallet providers
+- Highlights the role of verifying achievements and issuing rewards through secure voucher technology
+
+This distinction is important for:
+- Trademark registration and protection
+- Market positioning and differentiation  
+- Regulatory clarity and compliance
+- Partner and sponsor understanding
+
 ---
 
 ## Format Protection
