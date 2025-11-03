@@ -57,10 +57,9 @@ QuestPay proves that redemptions work **everywhere**:
 
 ### 3. Cultural Shift from Payment to Redemption
 
-Traditional messaging: *"Pay with your wallet."*  
-**QuestPay messaging**: *"Redeem. Race. Repeat."*
+QuestPay reframes digital transactions through *"Redeem. Race. Repeat."*
 
-The game reframes digital transactions as:
+The game transforms vouchers into:
 - **Redemption events** (not just payments)
 - **Value unlocking** (not just spending)
 - **Proof of action** (not just purchase confirmation)
