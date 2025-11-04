@@ -324,6 +324,20 @@ graph TD
     style L fill:#ffd700
 ```
 
+**If the diagram doesn't render in your viewer**, here's the flow in text:
+
+1. **Digital Ad** → Registration Form
+2. **Registration Form** → SMS with First Voucher Code
+3. **SMS Link** → x-Change Redemption Page
+4. **Enter Code** → Validate Voucher
+5. **Valid Code** → Landing Page with Data Collection
+6. **Submit Info** → Verify & Credit Pesos
+7. **Confirmed** → Splash Screen (Sponsor Ad)
+8. **Continue** → Next Landing Page with Challenge + Voucher
+9. **User Completes** → Back to Redemption Page (Loop)
+10. **After Multiple Challenges** → Final Voucher
+11. **On-Site Finale** → Grand Prize Awarded
+
 ---
 
 ## Sponsor Integration Points
