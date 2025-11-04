@@ -80,4 +80,10 @@ Explore the documentation to learn more about:
 - Production roadmap
 - Franchise potential
 
+### For Investors
+
+**→ [Sample Episode Walkthrough](sample-episode.md)** - See a complete contestant journey from registration to finale, with sponsor ROI metrics and technical flow diagrams.
+
+### For General Overview
+
 [Begin with the Executive Overview →](executive-overview.md)

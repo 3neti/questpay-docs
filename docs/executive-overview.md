@@ -189,6 +189,7 @@ Merchants, corporations, and NGOs to provide challenge locations and prize suppo
 
 Ready to learn more? Continue to:
 
+- **[Sample Episode Walkthrough](sample-episode.md)** - See a complete contestant journey demo
 - [Game Concept](concept.md) - Understand the gameplay mechanics
 - [Sponsorship Model](sponsorship.md) - Explore partnership opportunities
 - [Production Plan](production.md) - Review the rollout timeline
