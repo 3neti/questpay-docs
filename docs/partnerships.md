@@ -97,13 +97,19 @@ By integrating **x-Change** through **QuestPay™**, partners can expand from *t
 
 ---
 
-## Case Study: QuestPay™ x Maya
+## Partnership Case Study: Maya
+
+### Why Maya as Primary Case Study?
+
+Maya (Voyager Innovations) represents an ideal wallet partner profile for QuestPay™, demonstrating how any digital wallet can leverage the Redemption Switch framework.
 
 ### Strategic Alignment
 
 **QuestPay™** and **Maya** share a common mission: to accelerate digital adoption and make financial participation fun, inclusive, and rewarding.
 
 Together, they can redefine how Filipinos interact with money — not just as spenders or savers, but as **participants in a redemption-driven ecosystem**.
+
+**Note**: This partnership model is equally applicable to **Vybe (BPI), iCash (Sterling Bank), BDO Pay, UnionBank, GCash**, and other digital wallet providers.
 
 | Dimension | Maya | QuestPay™ |
 |-----------|------|-----------|
@@ -146,11 +152,13 @@ Once the format proves scalable, Maya can:
 3. Enable **micro-transfers, community aid, gifting, and merchant promos** — all via x-Change
 4. Monetize **voucher creation and redemption events** instead of relying solely on float
 
-### Strategic Context: The Big Switch
+### Strategic Context: The Redemption Switch
 
-This partnership model is part of **The Big Switch** — Maya's strategic transformation from destination wallet to the **origin of digital value**. QuestPay™ accelerates this shift by creating redemption velocity and demonstrating the power of open vouchers.
+This partnership model demonstrates **The Redemption Switch** — a wallet's strategic transformation from destination wallet to the **origin of digital value**. QuestPay™ accelerates this shift by creating redemption velocity and demonstrating the power of open vouchers.
 
-[Read the full strategic context →](strategy.md)
+This framework applies to any wallet partner, with Maya serving as the primary case study example.
+
+[Read the full strategic framework →](strategy.md)
 
 ---
 
