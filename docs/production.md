@@ -9,9 +9,14 @@
 **Goal**: Proof-of-concept in Metro Manila with 5-stage mini-quest
 
 **Timeline**: 3-4 months  
-**Investment**: $200k-500k  
+**Investment**: $450k-750k  
 **Contestants**: 10-15  
 **Episodes**: 3-5
+
+**Investment Breakdown**:
+- Core production: $200k-500k
+- x-Change platform license: $200k
+- Year 1 maintenance: $50k
 
 **Deliverables**:
 - Working game mechanics
@@ -117,7 +122,7 @@
 
 ### Technical Production
 
-- x-Change platform integration
+- Licensed x-Change platform (owned by QuestPay)
 - Mobile app development
 - Real-time graphics system
 - Broadcast technology

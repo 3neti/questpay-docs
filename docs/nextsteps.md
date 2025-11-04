@@ -268,7 +268,12 @@
 
 ### Immediate (Month 1-6)
 
-**Budget**: $100k-250k  
+**Budget**: $350k-500k  
+**Breakdown**:
+- Development & pre-production: $100k-250k
+- x-Change platform license: $200k
+- Year 1 maintenance: $50k
+
 **Team**: 5-10 people (mix of full-time and contractors)  
 **Timeline**: 6 months to pilot
 

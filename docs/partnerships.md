@@ -208,13 +208,17 @@ For a partner wallet with 10M active users:
 
 ## Technical Integration
 
-### x-Change Provides
+### x-Change Platform (Licensed by QuestPay™)
 
+**QuestPay™ owns a licensed instance of x-Change platform** ($200k one-time license + $50k/year maintenance from 3neti).
+
+This provides:
 - Voucher creation and redemption APIs
 - Real-time webhook callbacks for verification
 - Configurable metadata (amount, expiry, challenge type)
 - Splash pages and landing page redirects
 - Audit trail and analytics dashboard
+- Full infrastructure control and ownership
 
 ### Partner Wallet Provides
 
@@ -282,16 +286,17 @@ After the pilot, scale to everyday use cases:
 **Benefits**:
 - Category exclusivity (only wallet partner)
 - Co-branded QuestPay™ x [Partner] format
-- White-label x-Change platform access
+- Full integration with QuestPay's licensed x-Change instance
 - Shared revenue from voucher transactions
 - Joint IP development rights
+- Co-marketing and distribution support
 
 ### Tier 2: Integrated Wallet Partner
 
 **Investment**: $200k-500k per year  
 **Benefits**:
 - Integration into QuestPay™ platform (non-exclusive)
-- Access to x-Change APIs
+- API access to QuestPay's x-Change instance
 - Co-marketing opportunities
 - Transaction revenue share
 - Brand exposure
@@ -300,10 +305,12 @@ After the pilot, scale to everyday use cases:
 
 **Investment**: $50k-100k setup + usage fees  
 **Benefits**:
-- x-Change API access for own use cases
+- Limited API access to QuestPay's x-Change instance
 - Technical support and documentation
 - Transaction-based revenue share
-- White-label options
+- Basic integration support
+
+**Note**: Partners seeking their own x-Change deployment can license directly from 3neti R&D OPC ($200k license + $50k/year maintenance).
 
 ---
 

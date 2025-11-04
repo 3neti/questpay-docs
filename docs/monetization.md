@@ -53,10 +53,14 @@
 
 ## Voucher Fee Model
 
+### Platform Economics
+
+**Technology Foundation**: QuestPay™ operates on a licensed x-Change platform instance ($200k one-time license + $50k/year maintenance from 3neti).
+
 ### Voucher Generation & Feature Fees
 
 **Basic Voucher Generation**: ₱1-₱5 per code  
-**Advanced Features**: ₱1-₱50 per voucher (shared with partner wallet)
+**Advanced Features**: ₱1-₱50 per voucher (shared with partner wallet if applicable)
 
 **Advanced features include**:
 - Rich redemption flows with splash pages
@@ -68,9 +72,13 @@
 
 **Volume**: 10,000-500,000+ vouchers per season
 
-**Revenue**: $50k-500k per season (scales with audience participation and feature usage)
+**Revenue Model**:
+- **Charged to**: Sponsors, brand partners, and wallet integration partners
+- **QuestPay earns**: Voucher generation and advanced feature fees
+- **Partner wallets earn**: Revenue share on advanced features (when integrated)
+- **Estimated Revenue**: $50k-500k per season (scales with audience participation and feature usage)
 
-**Key Advantage**: Non-regulated revenue stream independent of BSP float restrictions
+**Key Advantage**: Non-regulated revenue stream independent of BSP float restrictions. QuestPay controls its own infrastructure and keeps majority of voucher-related revenue.
 
 ---
 

@@ -113,18 +113,32 @@ This distinction is important for:
 
 ### x-Change Platform Access
 
-**Components**:
+**QuestPay™ Philippines operates on a licensed x-Change instance** ($200k one-time + $50k/year maintenance from 3neti R&D OPC).
+
+**Components Included**:
 - Voucher generation API
 - Redemption verification system
 - Admin dashboard
 - Analytics tools
+- Complete infrastructure ownership
 
-**License Terms**:
-- Per-transaction fee OR
-- Monthly/annual subscription OR
-- Revenue share model
+### Franchise Technology Options
 
-**Support Included**:
+**Option 1: Shared Instance**
+- Use QuestPay™ global x-Change deployment
+- Lower cost, faster deployment
+- Centralized management
+- Included in base franchise license fee
+
+**Option 2: Dedicated Instance**
+- License own x-Change deployment from 3neti R&D OPC
+- **Cost**: $200k one-time license + $50k/year maintenance
+- Full infrastructure control and ownership
+- Local data residency and compliance
+- Customization capability
+- Operational independence
+
+**Support Included** (both options):
 - Technical documentation
 - API integration assistance
 - Bug fixes and updates

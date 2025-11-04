@@ -8,6 +8,41 @@ QuestPay™ is built on a layered architecture integrating voucher technology, p
 
 ---
 
+## Technology Licensing Model
+
+**QuestPay™ licenses a dedicated instance of the x-Change platform from 3neti R&D OPC**, providing full ownership and control of its redemption infrastructure.
+
+### Licensing Structure
+
+**One-Time Platform License**: $200k
+
+**Includes**:
+- Complete x-Change platform clone with QuestPay-specific customizations
+- Game-specific modules (challenge engine, leaderboards, real-time verification)
+- Initial infrastructure deployment on QuestPay-owned cloud resources
+- Complete documentation and knowledge transfer
+- Technical training for QuestPay team
+
+**Annual Maintenance & Support**: $50k/year
+
+**Includes**:
+- Software updates and security patches
+- Technical support with SLA
+- Performance optimization
+- Bug fixes and minor enhancements
+- Cloud architecture consultation
+
+### Infrastructure Ownership
+
+- **QuestPay owns**: All servers, databases, and cloud resources
+- **QuestPay controls**: Scaling, deployment, and operational decisions
+- **QuestPay pays**: Direct cloud hosting costs (estimated $10k-30k annually)
+- **3neti provides**: Platform development, updates, and technical support
+
+**Strategic Advantage**: This white-label licensing model ensures QuestPay has full independence and scalability while leveraging proven x-Change technology. Each franchise territory can receive its own licensed instance, creating recurring revenue for 3neti and operational autonomy for each QuestPay deployment.
+
+---
+
 ## Core Components
 
 ### 1. x-Change Voucher Engine
