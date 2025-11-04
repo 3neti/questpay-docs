@@ -185,6 +185,8 @@ QuestPay™ can be adapted to various thematic editions, each with unique appeal
 
 ## Sample Episode Arc
 
+**→ [See Detailed Sample Episode Walkthrough](sample-episode.md)** - Complete contestant journey with technical flow, sponsor integration, and ROI metrics.
+
 ### Episode Structure (1 hour broadcast)
 
 **Act 1: Setup (15 min)**
