@@ -65,7 +65,7 @@
 **Month 1: Development**
 - Finalize format and rules
 - Secure primary sponsors
-- Partner wallet API integration
+- Payment provider setup (wallet partner or Netbank fallback)
 - Location scouting
 
 **Month 2: Casting**
@@ -153,7 +153,11 @@
 | **Post-Production** | $150k-200k | 12-15% |
 | **Marketing & Promotion** | $200k-300k | 15-20% |
 | **Overhead & Contingency** | $100k-200k | 8-12% |
-| **TOTAL** | **$1.2M-1.9M** | **100%** |
+|| **TOTAL** | **$1.2M-1.9M** | **100%** |
+
+**Note on Payment Provider Costs**:
+- **With Wallet Partner**: Typically covered through revenue-share or co-marketing arrangement (no direct cost)
+- **With Netbank (fallback)**: ₱15 per transaction (~$10k-30k estimated for Season 1 based on transaction volume)
 
 ---
 

@@ -23,7 +23,7 @@
 
 ---
 
-### 2. Engage Partner Wallet
+### 2. Engage Partner Wallet (Preferred)
 
 **Tasks**:
 - Identify primary wallet partner (Maya, GCash, etc.)
@@ -39,6 +39,8 @@
 
 **Owner**: Business development  
 **Timeline**: 6-8 weeks
+
+**Fallback**: If wallet partnership is not secured by pilot launch, QuestPay will use **Netbank** (current x-Change payment provider) at ₱15/transaction. This enables independent launch while wallet negotiations continue for Season 1.
 
 ---
 
@@ -233,20 +235,27 @@
 
 ## Critical Success Factors
 
-### Must-Haves
+### Must-Haves (Pilot)
 
-✅ Strong wallet partner committed  
 ✅ Primary sponsor secured ($500k+)  
-✅ Technology MVP working reliably  
+✅ Technology MVP working reliably (x-Change + payment provider)  
 ✅ Compelling creative execution  
 ✅ Legal/compliance foundation  
+✅ Payment infrastructure (Netbank minimum, wallet partner preferred)  
 
-### Nice-to-Haves
+### Nice-to-Haves (Pilot)
 
+- Wallet partner committed (critical for Season 1)
 - Celebrity host or judge
 - Major media partner
-- Multiple wallet partners
 - International interest
+
+### Must-Haves (Season 1)
+
+✅ Wallet partner secured for scale and co-marketing  
+✅ Proven pilot metrics and sponsor ROI  
+✅ Full production team in place  
+✅ Media distribution confirmed
 
 ---
 

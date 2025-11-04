@@ -90,11 +90,11 @@ QuestPay™ is built on a layered architecture integrating voucher technology, p
 - MongoDB for flexible game data
 - WebSocket for real-time updates
 
-### 3. Partner Wallet API Integration
+### 3. Payment Provider Integration
 
-**Purpose**: Connect to payment providers for transaction verification
+**Purpose**: Connect to payment providers for transaction verification and disbursements
 
-**Partners**:
+**Primary Option: Wallet Partners**
 - Maya
 - GCash
 - UnionBank
@@ -106,6 +106,32 @@ QuestPay™ is built on a layered architecture integrating voucher technology, p
 - OAuth 2.0 authentication
 - Transaction verification API
 - Balance inquiry (if needed)
+- **Cost**: Typically revenue-share or co-marketing arrangement
+
+**Fallback Option: Netbank**
+
+**Current x-Change Integration**: If wallet partner is not secured, QuestPay can use Netbank (current x-Change payment provider)
+
+**Capabilities**:
+- Direct bank transfers and disbursements
+- Proven integration with x-Change platform
+- Operational and ready to deploy
+- No partnership negotiation required
+
+**Cost Structure**:
+- ₱15 per transaction
+- Higher per-transaction cost than wallet partnerships
+- Predictable, volume-independent pricing
+
+**Trade-offs**:
+- ✅ Immediate deployment capability
+- ✅ No dependency on wallet partner negotiations
+- ✅ Proven, stable integration
+- ⚠️ Higher per-transaction costs
+- ⚠️ Less brand visibility and co-marketing opportunity
+- ⚠️ May limit audience reach vs. popular wallet apps
+
+**Strategic Use**: Netbank enables QuestPay to launch pilot independently while wallet partnerships are negotiated for Season 1 scale-up.
 
 ### 4. Live Broadcast / App Layer
 
